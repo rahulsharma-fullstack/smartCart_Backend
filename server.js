@@ -35,7 +35,7 @@ app.get('/api/recommendations/:itemId', async (req, res) => {
   
       const recommendations = await personalizeRuntime.getRecommendations(params).promise();
   
-    
+    // dasd
   
       res.json(recommendations);
     
